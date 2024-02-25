@@ -25,8 +25,11 @@ globs = ["**/*.js"]
 
 [vars]
 LOG_LEVEL = "debug"
-WORKER_ENV = "development"
+# WORKER_ENV = "development"
+WORKER_ENV = "production"
 CLOUD_PLATFORM = "cloudflare"
+CF_DNS_RESOLVER_URL_2 = "https://149.112.112.112/dns-query"
+CF_DNS_RESOLVER_URL = "https://9.9.9.9/dns-query"
 
 ##################
 #------PROD------#
